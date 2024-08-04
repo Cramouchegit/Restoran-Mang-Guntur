@@ -1,5 +1,3 @@
-import React from "react";
-
 import data from "./utils/data";
 import "./styles/index.css";
 import "./App.css";

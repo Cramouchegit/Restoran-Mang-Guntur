@@ -28,14 +28,14 @@ const foodMenu = [
     description:
       "Potongan daging ayam yang ditusuk dan dibakar, disajikan dengan bumbu kacang",
     price: 15000,
-    image: "/src/assets/food/sate-ayam.jpg",
+    image: "/public/food/sate-ayam.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
     name: "Gado-Gado",
     description: "Sayuran segar dengan bumbu kacang khas Indonesia",
     price: 20000,
-    image: "/src/assets/food/gado-gado.jpg",
+    image: "/public/food/gado-gado.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
@@ -43,14 +43,14 @@ const foodMenu = [
     description:
       "Daging yang dimasak dengan santan dan rempah-rempah khas Padang",
     price: 30000,
-    image: "/src/assets/food/rendang.jpg",
+    image: "/public/food/rendang.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
     name: "Soto Ayam",
     description: "Sup ayam dengan kuah kuning dan berbagai rempah",
     price: 18000,
-    image: "/src/assets/food/soto-ayam.jpg",
+    image: "/public/food/soto-ayam.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
@@ -58,21 +58,21 @@ const foodMenu = [
     description:
       "Makanan dadakan yang terbuat dari adonan tepung dengan berbagai isian",
     price: 20000,
-    image: "/src/assets/food/martabak.jpg",
+    image: "/public/food/martabak.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
     name: "Bakso",
     description: "Bola daging yang direbus disajikan dengan mie dan kuah kaldu",
     price: 12000,
-    image: "/src/assets/food/bakso.jpg",
+    image: "/public/food/bakso.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
     name: "Soto Betawi",
     description: "Sup daging dengan kuah santan kental khas Betawi",
     price: 22000,
-    image: "/src/assets/food/soto-betawi.jpg",
+    image: "/public/food/soto-betawi.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
   {
@@ -80,15 +80,7 @@ const foodMenu = [
     description:
       "Ayam yang digeprek dengan bumbu rempah dan disajikan dengan sambal",
     price: 18000,
-    image: "/src/assets/food/ayam-penyet.jpg",
-    stock: Math.random() >= 0.5 ? true : false,
-  },
-  {
-    name: "Ayam Penyet",
-    description:
-      "Ayam yang digeprek dengan bumbu rempah dan disajikan dengan sambal",
-    price: 18000,
-    image: "/src/assets/food/ayam-penyet.jpg",
+    image: "/public/food/ayam-penyet.jpg",
     stock: Math.random() >= 0.5 ? true : false,
   },
 ];
