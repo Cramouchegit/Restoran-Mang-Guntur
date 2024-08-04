@@ -22,7 +22,7 @@ function Menu() {
       <menu className="menu">
         <h2>Menu Kita:</h2>
         <p>
-          Aneka makanan Indonesia yang disajikan oleh warteg mang udin sebagai
+          Aneka makanan Indonesia yang disajikan oleh Restoran mang Guntur sebagai
           pemenuhan makanan kesehatan yang diperlukan dalam kehidupan
           sehari-hari.
         </p>
